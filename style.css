@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+li,ul,h1{
+    display: inline;
+}
+
+ul{
+    margin-left: 65%;
+}
+
+li{
+    padding: 5px;
+    color: gray;
+    cursor: pointer;
+}
+
+li:hover{
+    color: white;
+}
+
+.search{
+    width: 60%;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.searchbar{
+    text-align: center;
+
+}
+
+::placeholder{
+    color: black;
+}
+
+img{
+    width: 220px;
+    height: 220px;
+}
+
+.box{
+    border-color:black;
+    border-width:2px;
+    border-style: solid;
+    width:220px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.products{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.box:hover{
+    background-color: black;
+    color: white;
+}
+
+.about{
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+h2{
+    margin-top: 30px;
+}
+
+.para{
+    margin-top:20px;
+}
+
+.contact{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.cont,.phone{
+    padding-top: 20px;
+}
+
+.small-para{
+    margin-top: 25px;
+    font-size: 14px;
+    color: gray;
+    padding: 5px;
+}
